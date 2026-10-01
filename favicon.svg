@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Goomee">
+  <rect width="64" height="64" rx="14" fill="#FAF9F6"/>
+  <path d="M32 11c-8.6 0-15.5 6.9-15.5 15.4 0 11 12.4 22.4 14.4 24.2a1.7 1.7 0 0 0 2.2 0c2-1.8 14.4-13.2 14.4-24.2C47.5 17.9 40.6 11 32 11z" fill="#175492"/>
+  <circle cx="32" cy="26" r="6.4" fill="#FAF9F6"/>
+  <g stroke="#FD5F06" stroke-width="3.6" stroke-linecap="round">
+    <path d="M49 9v5M43.5 11.5l2.6 3.2M55 12.5l-3.2 2.6"/>
+  </g>
+</svg>

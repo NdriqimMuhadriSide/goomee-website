@@ -1,0 +1,12 @@
+# Internal source material and build notes — never serve these publicly.
+*.docx
+DESIGN.md
+assets/media/README.md
+
+# Full-size stock originals — processed copies live in assets/media/
+media-src/
+DATA-INVENTORY.md
+
+# Build scripts and translation sources — the pages they generate are what ships
+tools/
+.DS_Store

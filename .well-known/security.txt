@@ -1,0 +1,7 @@
+# Found a security problem on getgoomee.com or in the Goomee app?
+# Please tell us privately first. We read every report and reply within two working days.
+Contact: mailto:goomee.support@gmail.com
+Contact: https://getgoomee.com/contact
+Expires: 2027-09-30T00:00:00.000Z
+Preferred-Languages: en, nl, fr
+Canonical: https://getgoomee.com/.well-known/security.txt

@@ -1,0 +1,7 @@
+.vercel
+
+# Full-size stock originals (333 MB) - processed copies live in assets/media/
+media-src/
+
+.DS_Store
+__pycache__/
