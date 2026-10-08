@@ -25,6 +25,7 @@ Sint-Genesius-Rode, Belgium — simon@high5intl.com
 | Notification history | `notification_log` | |
 | Approximate location | request-time; cached by grid cell | Coarsened via `search_cell_degrees`; precise coordinates are not stored against the user |
 | Last area (push) | `device.last_lat/lng` | Rounded to 2 decimals (~1 km), only with recommendation notifications on; deleted with the device |
+| Saved place location | `saved_place.snapshot.lat/lng` | The place's coordinates, not the user's; lets the phone watch saved places for "Saved places nearby" |
 | Payment data | **Stripe** | Not in use while the app is free. Card data would never reach our servers |
 
 ## Processors
@@ -73,7 +74,8 @@ Sint-Genesius-Rode, Belgium — simon@high5intl.com
 
 ## iOS permissions requested
 
-- `NSLocationWhenInUseUsageDescription` — when-in-use only, no background location
+- `NSLocationWhenInUseUsageDescription` — while the app is in use
+- `NSLocationAlwaysAndWhenInUseUsageDescription` — asked only when "Saved places nearby" is turned on in Notifications. iOS region monitoring on the phone (up to 20 saved places, 200 m); no location leaves the device for it
 - `NSPhotoLibraryUsageDescription`, `NSCameraUsageDescription` — profile picture only
 
 ## Open issues to resolve before launch
