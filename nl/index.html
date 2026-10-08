@@ -92,10 +92,11 @@
 
     <!-- ============ HERO ============ -->
     <section class="hero" aria-labelledby="hero-title">
-      <!-- Landing film. Plays on entry, muted, looping (forward then reversed,
-           so the loop point is seamless). Source: media-src/kling_*.mp4,
-           upscaled 4x with Apple's VideoToolbox super-resolution for desktop.
-           Phones get their own portrait cut (720×1920) that tracks the traveller. -->
+      <!-- Landing film. Plays on entry, muted, looping. Three 5s scenes (with
+           friends → with her boyfriend in Ghent → on her own in Rome) joined by
+           crossfades; the last fade lands on the first frame so the loop is
+           seamless. Built by tools/build-hero-loop.sh. Phones get a portrait
+           cut (540×1440) that stays on her in each scene. -->
       <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
         <source src="/assets/media/hero-loop-1440-hevc.mp4" type='video/mp4; codecs="hvc1"' media="(min-width: 761px)">
         <source src="/assets/media/hero-loop-1080.mp4" type="video/mp4" media="(min-width: 761px)">
