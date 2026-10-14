@@ -43,7 +43,7 @@
      Replace the CSS-drawn badges with Apple's and Google's official artwork at
      the same time: both only allow their badges for apps that are live. */
   var STORES = {
-    ios: '',      // e.g. https://apps.apple.com/be/app/goomee/id0000000000
+    ios: 'https://apps.apple.com/app/goomee/id6815377323',  // no country, so each visitor gets their own store
     android: ''   // e.g. https://play.google.com/store/apps/details?id=com.goomee.app
   };
 
