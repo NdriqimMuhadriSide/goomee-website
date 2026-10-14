@@ -14,11 +14,11 @@
   var T = {
     en: {
       confirmedTitle: 'Your email is confirmed',
-      confirmedBody: 'Thank you. Open Watoo on your phone and sign in with your email and password.',
+      confirmedBody: 'Thank you. Open Goomee on your phone and sign in with your email and password.',
       confirmExpiredTitle: 'This link has expired',
-      confirmExpiredBody: 'Confirmation links work once, for a limited time. Open Watoo, try to sign in, and tap “Send the email again” to get a new one.',
+      confirmExpiredBody: 'Confirmation links work once, for a limited time. Open Goomee, try to sign in, and tap “Send the email again” to get a new one.',
       resetTitle: 'Set a new password',
-      resetIntro: 'Choose a new password for your Watoo account.',
+      resetIntro: 'Choose a new password for your Goomee account.',
       newPassword: 'New password',
       repeatPassword: 'Repeat the new password',
       hint: 'At least 8 characters.',
@@ -27,9 +27,9 @@
       tooShort: 'The password needs at least 8 characters.',
       mismatch: 'The two passwords are not the same.',
       samePassword: 'That is your current password. Choose a different one.',
-      resetDone: 'Your password is changed. Open Watoo and sign in with the new one.',
+      resetDone: 'Your password is changed. Open Goomee and sign in with the new one.',
       resetExpiredTitle: 'This link has expired',
-      resetExpiredBody: 'Reset links work once, for a limited time. In Watoo, tap “Forgot password?” to get a new one.',
+      resetExpiredBody: 'Reset links work once, for a limited time. In Goomee, tap “Forgot password?” to get a new one.',
       busy: 'Too many attempts. Wait a minute and try again.',
       failed: 'Something went wrong. Check your connection and try again.',
       showPassword: 'Show password',
@@ -37,11 +37,11 @@
     },
     nl: {
       confirmedTitle: 'Je e-mailadres is bevestigd',
-      confirmedBody: 'Bedankt. Open Watoo op je telefoon en log in met je e-mailadres en wachtwoord.',
+      confirmedBody: 'Bedankt. Open Goomee op je telefoon en log in met je e-mailadres en wachtwoord.',
       confirmExpiredTitle: 'Deze link is verlopen',
-      confirmExpiredBody: 'Een bevestigingslink werkt één keer, en maar een tijdje. Open Watoo, probeer in te loggen en tik op ‘Stuur de e-mail opnieuw’ voor een nieuwe.',
+      confirmExpiredBody: 'Een bevestigingslink werkt één keer, en maar een tijdje. Open Goomee, probeer in te loggen en tik op ‘Stuur de e-mail opnieuw’ voor een nieuwe.',
       resetTitle: 'Kies een nieuw wachtwoord',
-      resetIntro: 'Kies een nieuw wachtwoord voor je Watoo-account.',
+      resetIntro: 'Kies een nieuw wachtwoord voor je Goomee-account.',
       newPassword: 'Nieuw wachtwoord',
       repeatPassword: 'Herhaal het nieuwe wachtwoord',
       hint: 'Minstens 8 tekens.',
@@ -50,9 +50,9 @@
       tooShort: 'Het wachtwoord moet minstens 8 tekens hebben.',
       mismatch: 'De twee wachtwoorden zijn niet hetzelfde.',
       samePassword: 'Dat is je huidige wachtwoord. Kies een ander.',
-      resetDone: 'Je wachtwoord is gewijzigd. Open Watoo en log in met het nieuwe.',
+      resetDone: 'Je wachtwoord is gewijzigd. Open Goomee en log in met het nieuwe.',
       resetExpiredTitle: 'Deze link is verlopen',
-      resetExpiredBody: 'Een resetlink werkt één keer, en maar een tijdje. Tik in Watoo op ‘Wachtwoord vergeten?’ voor een nieuwe.',
+      resetExpiredBody: 'Een resetlink werkt één keer, en maar een tijdje. Tik in Goomee op ‘Wachtwoord vergeten?’ voor een nieuwe.',
       busy: 'Te veel pogingen. Wacht een minuut en probeer opnieuw.',
       failed: 'Er ging iets mis. Controleer je verbinding en probeer opnieuw.',
       showPassword: 'Wachtwoord tonen',
@@ -60,11 +60,11 @@
     },
     fr: {
       confirmedTitle: 'Votre adresse e-mail est confirmée',
-      confirmedBody: 'Merci. Ouvrez Watoo sur votre téléphone et connectez-vous avec votre adresse e-mail et votre mot de passe.',
+      confirmedBody: 'Merci. Ouvrez Goomee sur votre téléphone et connectez-vous avec votre adresse e-mail et votre mot de passe.',
       confirmExpiredTitle: 'Ce lien a expiré',
-      confirmExpiredBody: 'Un lien de confirmation ne fonctionne qu’une fois, pendant un temps limité. Ouvrez Watoo, essayez de vous connecter et touchez « Renvoyer l’e-mail » pour en recevoir un nouveau.',
+      confirmExpiredBody: 'Un lien de confirmation ne fonctionne qu’une fois, pendant un temps limité. Ouvrez Goomee, essayez de vous connecter et touchez « Renvoyer l’e-mail » pour en recevoir un nouveau.',
       resetTitle: 'Choisir un nouveau mot de passe',
-      resetIntro: 'Choisissez un nouveau mot de passe pour votre compte Watoo.',
+      resetIntro: 'Choisissez un nouveau mot de passe pour votre compte Goomee.',
       newPassword: 'Nouveau mot de passe',
       repeatPassword: 'Répétez le nouveau mot de passe',
       hint: 'Au moins 8 caractères.',
@@ -73,9 +73,9 @@
       tooShort: 'Le mot de passe doit comporter au moins 8 caractères.',
       mismatch: 'Les deux mots de passe ne sont pas identiques.',
       samePassword: 'C’est votre mot de passe actuel. Choisissez-en un autre.',
-      resetDone: 'Votre mot de passe a été modifié. Ouvrez Watoo et connectez-vous avec le nouveau.',
+      resetDone: 'Votre mot de passe a été modifié. Ouvrez Goomee et connectez-vous avec le nouveau.',
       resetExpiredTitle: 'Ce lien a expiré',
-      resetExpiredBody: 'Un lien de réinitialisation ne fonctionne qu’une fois, pendant un temps limité. Dans Watoo, touchez « Mot de passe oublié ? » pour en recevoir un nouveau.',
+      resetExpiredBody: 'Un lien de réinitialisation ne fonctionne qu’une fois, pendant un temps limité. Dans Goomee, touchez « Mot de passe oublié ? » pour en recevoir un nouveau.',
       busy: 'Trop de tentatives. Attendez une minute et réessayez.',
       failed: 'Une erreur est survenue. Vérifiez votre connexion et réessayez.',
       showPassword: 'Afficher le mot de passe',
@@ -83,11 +83,11 @@
     },
     de: {
       confirmedTitle: 'Deine E-Mail-Adresse ist bestätigt',
-      confirmedBody: 'Danke. Öffne Watoo auf deinem Handy und melde dich mit deiner E-Mail-Adresse und deinem Passwort an.',
+      confirmedBody: 'Danke. Öffne Goomee auf deinem Handy und melde dich mit deiner E-Mail-Adresse und deinem Passwort an.',
       confirmExpiredTitle: 'Dieser Link ist abgelaufen',
-      confirmExpiredBody: 'Ein Bestätigungslink funktioniert nur einmal und nur eine Zeit lang. Öffne Watoo, versuche dich anzumelden, und tippe auf „E-Mail erneut senden“, um einen neuen zu bekommen.',
+      confirmExpiredBody: 'Ein Bestätigungslink funktioniert nur einmal und nur eine Zeit lang. Öffne Goomee, versuche dich anzumelden, und tippe auf „E-Mail erneut senden“, um einen neuen zu bekommen.',
       resetTitle: 'Neues Passwort festlegen',
-      resetIntro: 'Wähle ein neues Passwort für dein Watoo-Konto.',
+      resetIntro: 'Wähle ein neues Passwort für dein Goomee-Konto.',
       newPassword: 'Neues Passwort',
       repeatPassword: 'Neues Passwort wiederholen',
       hint: 'Mindestens 8 Zeichen.',
@@ -96,9 +96,9 @@
       tooShort: 'Das Passwort braucht mindestens 8 Zeichen.',
       mismatch: 'Die beiden Passwörter sind nicht gleich.',
       samePassword: 'Das ist dein aktuelles Passwort. Wähle ein anderes.',
-      resetDone: 'Dein Passwort ist geändert. Öffne Watoo und melde dich mit dem neuen an.',
+      resetDone: 'Dein Passwort ist geändert. Öffne Goomee und melde dich mit dem neuen an.',
       resetExpiredTitle: 'Dieser Link ist abgelaufen',
-      resetExpiredBody: 'Ein Link zum Zurücksetzen funktioniert nur einmal und nur eine Zeit lang. Tippe in Watoo auf „Passwort vergessen?“, um einen neuen zu bekommen.',
+      resetExpiredBody: 'Ein Link zum Zurücksetzen funktioniert nur einmal und nur eine Zeit lang. Tippe in Goomee auf „Passwort vergessen?“, um einen neuen zu bekommen.',
       busy: 'Zu viele Versuche. Warte eine Minute und versuche es noch einmal.',
       failed: 'Etwas ist schiefgelaufen. Prüfe deine Verbindung und versuche es noch einmal.',
       showPassword: 'Passwort anzeigen',
@@ -140,12 +140,12 @@
     var failed = p.error || p.error_code;
     text('title', failed ? t.confirmExpiredTitle : t.confirmedTitle);
     text('body', failed ? t.confirmExpiredBody : t.confirmedBody);
-    document.title = (failed ? t.confirmExpiredTitle : t.confirmedTitle) + ' | Watoo';
+    document.title = (failed ? t.confirmExpiredTitle : t.confirmedTitle) + ' | Goomee';
     return;
   }
 
   if (page !== 'reset') return;
-  document.title = t.resetTitle + ' | Watoo';
+  document.title = t.resetTitle + ' | Goomee';
   var token = p.access_token;
 
   if (!token || p.error || p.error_code || (p.type && p.type !== 'recovery')) {
