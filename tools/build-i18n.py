@@ -37,10 +37,10 @@ ARTICLE = re.compile(r'(<article class="wrap legal">)(.*?)(</article>)', re.S)
 
 # Text that is legitimately identical in every language.
 SAME = {
-    "Goo", "mee", "Goomee", "Menu", "YouTube (Google)", "Gmail (Google)", "EN", "NL", "FR", "App Store", "Google Play",
+    "Wa", "too", "Watoo", "Menu", "YouTube (Google)", "Gmail (Google)", "EN", "NL", "FR", "App Store", "Google Play",
     "Rome", "Amsterdam", "New York", "Bilbao", "Vecteezy", "Contact", "Paris",
     "Barcelona", "Privacy", "Destinations", "Planner", "Miradouro da Graça",
-    "© 2026 Goomee.", "Restaurants", "Support",
+    "© 2026 Watoo.", "Restaurants", "Support",
     # in-app button names, quoted as the app shows them; the app has no Dutch
     # yet, so the Dutch support page keeps them in English on purpose
     "Profile → Privacy & Security", "Download my data", "Delete Account",
@@ -48,7 +48,7 @@ SAME = {
     # names, places and words that are the same in Dutch or French
     "High Five International", "Diepestraat 2 bus B", "1640 Sint-Genesius-Rode",
     "Supabase", "Google Cloud Run", "Google Cloud", "Vercel", "Vercel Web Analytics", "Web3Forms", "Stripe", "Apple", "Open-Meteo", "EU",
-    "Account", "Open", "Notifications", "12. Contact", "Message", "Contactformulier", "Contact | Goomee", "Sint-Genesius-Rode", "0742.937.252",
+    "Account", "Open", "Notifications", "12. Contact", "Message", "Contactformulier", "Contact | Watoo", "Sint-Genesius-Rode", "0742.937.252",
 }
 # email addresses and bare web addresses never need translating
 UNTRANSLATABLE = re.compile(r"^[\w.+-]+@[\w.-]+$|^[\w-]+(\.[\w-]+)+(/[\w/.-]*)?$")

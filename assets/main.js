@@ -1,4 +1,4 @@
-/* Goomee — landing page behaviour. Progressive: the page is fully readable
+/* Watoo — landing page behaviour. Progressive: the page is fully readable
    and navigable with this file absent. */
 (function () {
   'use strict';
@@ -12,16 +12,16 @@
   var LANG = (document.documentElement.lang || 'en').slice(0, 2);
   var T = {
     en: { choose: 'Choose a card', card: 'Card {n} of {t}',
-          ios: 'Goomee is coming to the App Store very soon.',
-          android: 'Goomee for Android is coming later. iPhone first!',
+          ios: 'Watoo is coming to the App Store very soon.',
+          android: 'Watoo for Android is coming later. iPhone first!',
           social: 'Our social pages are coming soon.' },
     nl: { choose: 'Kies een kaart', card: 'Kaart {n} van {t}',
-          ios: 'Goomee komt heel binnenkort naar de App Store.',
-          android: 'Goomee voor Android volgt later. Eerst iPhone!',
+          ios: 'Watoo komt heel binnenkort naar de App Store.',
+          android: 'Watoo voor Android volgt later. Eerst iPhone!',
           social: 'Onze sociale pagina’s komen binnenkort.' },
     fr: { choose: 'Choisir une carte', card: 'Carte {n} sur {t}',
-          ios: 'Goomee arrive très bientôt sur l’App Store.',
-          android: 'Goomee pour Android arrivera plus tard. D’abord l’iPhone !',
+          ios: 'Watoo arrive très bientôt sur l’App Store.',
+          android: 'Watoo pour Android arrivera plus tard. D’abord l’iPhone !',
           social: 'Nos réseaux sociaux arrivent bientôt.' }
   };
   T = T[LANG] || T.en;
@@ -139,8 +139,8 @@
       var topicLabel = topic.options[topic.selectedIndex].text;
       var payload = {
         access_key: key,
-        subject: 'Goomee contact [' + topic.value + ', ' + LANG.toUpperCase() + '] ' + form.elements.name.value,
-        from_name: 'Goomee website',
+        subject: 'Watoo contact [' + topic.value + ', ' + LANG.toUpperCase() + '] ' + form.elements.name.value,
+        from_name: 'Watoo website',
         name: form.elements.name.value,
         email: form.elements.email.value,
         topic: topicLabel,
